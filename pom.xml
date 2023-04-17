@@ -252,6 +252,7 @@
     </dependencyManagement>
 
     <modules>
+        <module>boot</module>
         <module>thinglinks-auth</module>
         <module>thinglinks-gateway</module>
         <module>thinglinks-visual</module>
