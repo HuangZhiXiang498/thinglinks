@@ -22,7 +22,6 @@ import com.mqttsnet.thinglinks.boot.link.service.device.DeviceInfoService;
 import com.mqttsnet.thinglinks.boot.link.service.device.DeviceService;
 import com.mqttsnet.thinglinks.boot.link.service.product.ProductService;
 import com.mqttsnet.thinglinks.boot.link.service.product.ProductServicesService;
-
 import com.mqttsnet.thinglinks.boot.remote.RemotePublishActorService;
 import com.mqttsnet.thinglinks.boot.remote.RemoteTdEngineService;
 import com.mqttsnet.thinglinks.common.core.constant.Constants;
@@ -41,7 +40,6 @@ import com.mqttsnet.thinglinks.common.core.utils.StringUtils;
 import com.mqttsnet.thinglinks.common.core.utils.SubStringUtil;
 import com.mqttsnet.thinglinks.common.core.utils.tdengine.TdUtils;
 import com.mqttsnet.thinglinks.common.redis.service.RedisService;
-
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Value;

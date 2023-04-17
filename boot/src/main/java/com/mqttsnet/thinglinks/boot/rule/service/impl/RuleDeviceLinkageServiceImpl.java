@@ -20,7 +20,6 @@ import com.mqttsnet.thinglinks.common.core.enums.TriggeringEnum;
 import com.mqttsnet.thinglinks.common.core.utils.CompareUtil;
 import com.mqttsnet.thinglinks.common.rocketmq.constant.ConsumerTopicConstant;
 import com.mqttsnet.thinglinks.common.rocketmq.domain.MQMessage;
-
 import lombok.extern.slf4j.Slf4j;
 import org.apache.commons.collections4.CollectionUtils;
 import org.apache.rocketmq.spring.core.RocketMQTemplate;

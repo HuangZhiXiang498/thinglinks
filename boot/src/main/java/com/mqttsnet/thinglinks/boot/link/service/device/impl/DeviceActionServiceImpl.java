@@ -1,7 +1,6 @@
 package com.mqttsnet.thinglinks.boot.link.service.device.impl;
 
 import com.alibaba.fastjson.JSONObject;
-
 import com.google.gson.Gson;
 import com.mqttsnet.thinglinks.boot.domain.device.entity.Device;
 import com.mqttsnet.thinglinks.boot.domain.device.entity.DeviceAction;
@@ -12,7 +11,6 @@ import com.mqttsnet.thinglinks.common.core.constant.Constants;
 import com.mqttsnet.thinglinks.common.core.enums.DeviceConnectStatus;
 import com.mqttsnet.thinglinks.common.core.utils.DateUtils;
 import com.mqttsnet.thinglinks.common.redis.service.RedisService;
-
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 

@@ -7,7 +7,6 @@ import com.mqttsnet.thinglinks.boot.domain.model.LoginUser;
 import com.mqttsnet.thinglinks.boot.security.service.TokenService;
 import com.mqttsnet.thinglinks.common.core.utils.StringUtils;
 import com.mqttsnet.thinglinks.common.core.web.domain.BaseEntity;
-
 import org.aspectj.lang.JoinPoint;
 import org.aspectj.lang.annotation.Aspect;
 import org.aspectj.lang.annotation.Before;

@@ -2,7 +2,6 @@ package com.mqttsnet.thinglinks.boot.job.task.link;
 
 import com.mqttsnet.thinglinks.boot.remote.RemoteDeviceInfoService;
 import com.mqttsnet.thinglinks.common.core.utils.StringUtils;
-
 import lombok.extern.slf4j.Slf4j;
 import org.apache.commons.lang3.time.StopWatch;
 import org.springframework.stereotype.Component;

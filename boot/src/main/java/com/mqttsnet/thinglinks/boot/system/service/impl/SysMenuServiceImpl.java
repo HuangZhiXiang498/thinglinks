@@ -1,5 +1,7 @@
 package com.mqttsnet.thinglinks.boot.system.service.impl;
 
+import com.mqttsnet.thinglinks.boot.domain.SysRole;
+import com.mqttsnet.thinglinks.boot.domain.SysUser;
 import com.mqttsnet.thinglinks.boot.system.domain.SysMenu;
 import com.mqttsnet.thinglinks.boot.system.domain.vo.MetaVo;
 import com.mqttsnet.thinglinks.boot.system.domain.vo.RouterVo;
@@ -12,9 +14,6 @@ import com.mqttsnet.thinglinks.common.core.constant.Constants;
 import com.mqttsnet.thinglinks.common.core.constant.UserConstants;
 import com.mqttsnet.thinglinks.common.core.utils.SecurityUtils;
 import com.mqttsnet.thinglinks.common.core.utils.StringUtils;
-import com.mqttsnet.thinglinks.system.api.domain.SysRole;
-import com.mqttsnet.thinglinks.system.api.domain.SysUser;
-
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 

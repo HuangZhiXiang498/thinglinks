@@ -4,7 +4,6 @@ import com.mqttsnet.thinglinks.boot.protocolAnalysis.tcpServer.TcpServer;
 import com.mqttsnet.thinglinks.boot.protocolAnalysis.tcpServer.gb32960.service.GB32960DataParseService;
 import com.mqttsnet.thinglinks.boot.protocolAnalysis.tcpServer.protocol.ProtocolModel;
 import com.mqttsnet.thinglinks.common.core.utils.bytes.ByteCastUtil;
-
 import io.netty.buffer.ByteBuf;
 import io.netty.buffer.ByteBufUtil;
 import io.netty.channel.Channel;

@@ -3,7 +3,6 @@ package com.mqttsnet.thinglinks.boot.gen.service;
 import com.mqttsnet.thinglinks.boot.gen.domain.GenTableColumn;
 import com.mqttsnet.thinglinks.boot.gen.mapper.GenTableColumnMapper;
 import com.mqttsnet.thinglinks.common.core.text.Convert;
-
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 

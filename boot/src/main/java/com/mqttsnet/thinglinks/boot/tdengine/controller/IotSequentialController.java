@@ -6,7 +6,6 @@ import com.mqttsnet.thinglinks.boot.tdengine.service.IotSequentialService;
 import com.mqttsnet.thinglinks.common.core.web.controller.BaseController;
 import com.mqttsnet.thinglinks.common.core.web.domain.AjaxResult;
 import com.mqttsnet.thinglinks.common.core.web.page.TableDataInfo;
-
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
 

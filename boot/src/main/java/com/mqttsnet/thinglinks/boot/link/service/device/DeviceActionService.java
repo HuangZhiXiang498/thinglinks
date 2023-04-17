@@ -3,7 +3,6 @@ package com.mqttsnet.thinglinks.boot.link.service.device;
 import com.alibaba.fastjson.JSONObject;
 import com.mqttsnet.thinglinks.boot.domain.device.entity.DeviceAction;
 
-
 import java.util.List;
 
 /**

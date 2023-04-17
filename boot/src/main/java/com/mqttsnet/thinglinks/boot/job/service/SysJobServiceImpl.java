@@ -6,7 +6,6 @@ import com.mqttsnet.thinglinks.boot.job.utils.ScheduleUtils;
 import com.mqttsnet.thinglinks.common.core.constant.ScheduleConstants;
 import com.mqttsnet.thinglinks.common.core.exception.job.TaskException;
 import com.mqttsnet.thinglinks.common.job.utils.CronUtils;
-
 import org.quartz.JobDataMap;
 import org.quartz.JobKey;
 import org.quartz.Scheduler;

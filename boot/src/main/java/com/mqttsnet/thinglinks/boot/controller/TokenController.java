@@ -8,7 +8,6 @@ import com.mqttsnet.thinglinks.boot.security.service.TokenService;
 import com.mqttsnet.thinglinks.boot.service.SysLoginService;
 import com.mqttsnet.thinglinks.common.core.domain.R;
 import com.mqttsnet.thinglinks.common.core.utils.StringUtils;
-
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.DeleteMapping;
 import org.springframework.web.bind.annotation.PostMapping;

@@ -4,10 +4,7 @@ import com.mqttsnet.thinglinks.boot.domain.SysFile;
 import com.mqttsnet.thinglinks.boot.file.controller.SysFileController;
 import com.mqttsnet.thinglinks.common.core.domain.R;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.http.MediaType;
 import org.springframework.stereotype.Component;
-import org.springframework.web.bind.annotation.PostMapping;
-import org.springframework.web.bind.annotation.RequestPart;
 import org.springframework.web.multipart.MultipartFile;
 
 /**

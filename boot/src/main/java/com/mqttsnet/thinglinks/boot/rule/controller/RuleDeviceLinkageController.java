@@ -3,7 +3,6 @@ package com.mqttsnet.thinglinks.boot.rule.controller;
 import com.mqttsnet.thinglinks.boot.rule.service.RuleDeviceLinkageService;
 import com.mqttsnet.thinglinks.common.core.domain.R;
 import com.mqttsnet.thinglinks.common.core.web.controller.BaseController;
-
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.GetMapping;

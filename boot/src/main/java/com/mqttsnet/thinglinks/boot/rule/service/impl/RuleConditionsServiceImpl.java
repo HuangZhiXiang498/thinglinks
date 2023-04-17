@@ -18,8 +18,6 @@ import com.mqttsnet.thinglinks.boot.rule.service.RuleConditionsService;
 import com.mqttsnet.thinglinks.boot.security.service.TokenService;
 import com.mqttsnet.thinglinks.common.core.domain.R;
 import com.mqttsnet.thinglinks.common.core.utils.bean.BeanUtils;
-
-
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.stereotype.Service;
 

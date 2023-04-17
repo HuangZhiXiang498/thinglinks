@@ -1,6 +1,7 @@
 package com.mqttsnet.thinglinks.boot.system.controller;
 
 import com.mqttsnet.thinglinks.boot.domain.SysOperLog;
+import com.mqttsnet.thinglinks.boot.log.annotation.Log;
 import com.mqttsnet.thinglinks.boot.log.enums.BusinessType;
 import com.mqttsnet.thinglinks.boot.security.annotation.InnerAuth;
 import com.mqttsnet.thinglinks.boot.security.annotation.PreAuthorize;
@@ -9,8 +10,6 @@ import com.mqttsnet.thinglinks.common.core.utils.poi.ExcelUtil;
 import com.mqttsnet.thinglinks.common.core.web.controller.BaseController;
 import com.mqttsnet.thinglinks.common.core.web.domain.AjaxResult;
 import com.mqttsnet.thinglinks.common.core.web.page.TableDataInfo;
-import com.mqttsnet.thinglinks.boot.log.annotation.Log;
-
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
 

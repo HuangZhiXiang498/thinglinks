@@ -1,6 +1,7 @@
 package com.mqttsnet.thinglinks.boot.system.controller;
 
 import com.mqttsnet.thinglinks.boot.domain.SysDept;
+import com.mqttsnet.thinglinks.boot.log.annotation.Log;
 import com.mqttsnet.thinglinks.boot.log.enums.BusinessType;
 import com.mqttsnet.thinglinks.boot.security.annotation.PreAuthorize;
 import com.mqttsnet.thinglinks.boot.system.service.ISysDeptService;
@@ -9,8 +10,6 @@ import com.mqttsnet.thinglinks.common.core.utils.SecurityUtils;
 import com.mqttsnet.thinglinks.common.core.utils.StringUtils;
 import com.mqttsnet.thinglinks.common.core.web.controller.BaseController;
 import com.mqttsnet.thinglinks.common.core.web.domain.AjaxResult;
-import com.mqttsnet.thinglinks.boot.log.annotation.Log;
-
 import org.apache.commons.lang3.ArrayUtils;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.validation.annotation.Validated;

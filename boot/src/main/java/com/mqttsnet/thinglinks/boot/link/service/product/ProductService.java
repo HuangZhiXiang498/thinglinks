@@ -6,7 +6,6 @@ import com.mqttsnet.thinglinks.boot.domain.SuperTableDto;
 import com.mqttsnet.thinglinks.boot.domain.product.entity.Product;
 import com.mqttsnet.thinglinks.boot.domain.product.model.ProductModel;
 import com.mqttsnet.thinglinks.common.core.web.domain.AjaxResult;
-
 import org.springframework.web.multipart.MultipartFile;
 
 import java.util.Collection;

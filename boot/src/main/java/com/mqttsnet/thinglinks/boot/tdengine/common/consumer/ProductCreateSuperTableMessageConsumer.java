@@ -5,7 +5,6 @@ import com.mqttsnet.thinglinks.boot.tdengine.service.ProductSuperTableCreateOrUp
 import com.mqttsnet.thinglinks.common.core.utils.StringUtils;
 import com.mqttsnet.thinglinks.common.rocketmq.constant.ConsumerGroupConstant;
 import com.mqttsnet.thinglinks.common.rocketmq.constant.ConsumerTopicConstant;
-
 import lombok.extern.slf4j.Slf4j;
 import org.apache.rocketmq.spring.annotation.MessageModel;
 import org.apache.rocketmq.spring.annotation.RocketMQMessageListener;

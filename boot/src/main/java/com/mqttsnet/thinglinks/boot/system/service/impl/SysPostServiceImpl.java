@@ -7,7 +7,6 @@ import com.mqttsnet.thinglinks.boot.system.service.ISysPostService;
 import com.mqttsnet.thinglinks.common.core.constant.UserConstants;
 import com.mqttsnet.thinglinks.common.core.exception.ServiceException;
 import com.mqttsnet.thinglinks.common.core.utils.StringUtils;
-
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 

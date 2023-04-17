@@ -4,8 +4,6 @@ import com.mqttsnet.thinglinks.boot.domain.SysUser;
 import com.mqttsnet.thinglinks.boot.system.service.ISysMenuService;
 import com.mqttsnet.thinglinks.boot.system.service.ISysPermissionService;
 import com.mqttsnet.thinglinks.boot.system.service.ISysRoleService;
-
-
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 

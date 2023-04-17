@@ -19,7 +19,6 @@ import com.mqttsnet.thinglinks.boot.link.service.product.ProductServicesService;
 import com.mqttsnet.thinglinks.boot.remote.RemotePublishActorService;
 import com.mqttsnet.thinglinks.boot.remote.RemoteTdEngineService;
 import com.mqttsnet.thinglinks.boot.security.service.TokenService;
-
 import com.mqttsnet.thinglinks.common.core.constant.Constants;
 import com.mqttsnet.thinglinks.common.core.domain.R;
 import com.mqttsnet.thinglinks.common.core.enums.DeviceConnectStatus;
@@ -28,8 +27,6 @@ import com.mqttsnet.thinglinks.common.core.text.UUID;
 import com.mqttsnet.thinglinks.common.core.utils.DateUtils;
 import com.mqttsnet.thinglinks.common.core.utils.StringUtils;
 import com.mqttsnet.thinglinks.common.core.utils.tdengine.TdUtils;
-
-
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Value;

@@ -3,8 +3,6 @@ package com.mqttsnet.thinglinks.boot.system.service.impl;
 import com.mqttsnet.thinglinks.boot.domain.SysOperLog;
 import com.mqttsnet.thinglinks.boot.system.mapper.SysOperLogMapper;
 import com.mqttsnet.thinglinks.boot.system.service.ISysOperLogService;
-
-
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 

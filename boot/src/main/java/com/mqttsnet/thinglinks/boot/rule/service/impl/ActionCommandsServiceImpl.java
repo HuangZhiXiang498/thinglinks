@@ -17,7 +17,6 @@ import com.mqttsnet.thinglinks.boot.rule.service.ActionCommandsService;
 import com.mqttsnet.thinglinks.boot.security.service.TokenService;
 import com.mqttsnet.thinglinks.common.core.domain.R;
 import com.mqttsnet.thinglinks.common.core.utils.bean.BeanUtils;
-
 import org.springframework.stereotype.Service;
 
 import javax.annotation.Resource;

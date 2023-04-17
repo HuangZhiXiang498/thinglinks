@@ -5,7 +5,6 @@ import com.mqttsnet.thinglinks.boot.gen.domain.GenTable;
 import com.mqttsnet.thinglinks.boot.gen.domain.GenTableColumn;
 import com.mqttsnet.thinglinks.common.core.constant.GenConstants;
 import com.mqttsnet.thinglinks.common.core.utils.StringUtils;
-
 import org.apache.commons.lang3.RegExUtils;
 
 import java.util.Arrays;

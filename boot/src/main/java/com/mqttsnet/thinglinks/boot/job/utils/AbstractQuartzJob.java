@@ -8,7 +8,6 @@ import com.mqttsnet.thinglinks.common.core.utils.ExceptionUtil;
 import com.mqttsnet.thinglinks.common.core.utils.SpringUtils;
 import com.mqttsnet.thinglinks.common.core.utils.StringUtils;
 import com.mqttsnet.thinglinks.common.core.utils.bean.BeanUtils;
-
 import org.quartz.Job;
 import org.quartz.JobExecutionContext;
 import org.quartz.JobExecutionException;

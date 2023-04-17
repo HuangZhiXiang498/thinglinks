@@ -2,7 +2,6 @@ package com.mqttsnet.thinglinks.boot.job.service;
 
 import com.mqttsnet.thinglinks.boot.domain.SysJob;
 import com.mqttsnet.thinglinks.common.core.exception.job.TaskException;
-
 import org.quartz.SchedulerException;
 
 import java.util.List;

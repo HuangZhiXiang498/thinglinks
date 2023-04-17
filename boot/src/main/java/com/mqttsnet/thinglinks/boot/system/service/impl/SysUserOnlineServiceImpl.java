@@ -4,7 +4,6 @@ import com.mqttsnet.thinglinks.boot.domain.model.LoginUser;
 import com.mqttsnet.thinglinks.boot.system.domain.SysUserOnline;
 import com.mqttsnet.thinglinks.boot.system.service.ISysUserOnlineService;
 import com.mqttsnet.thinglinks.common.core.utils.StringUtils;
-
 import org.springframework.stereotype.Service;
 
 /**

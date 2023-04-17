@@ -3,7 +3,6 @@ package com.mqttsnet.thinglinks.boot.rule.service;
 import com.mqttsnet.thinglinks.boot.domain.Rule;
 import com.mqttsnet.thinglinks.boot.domain.model.RuleModel;
 
-
 import java.util.List;
 
 /**

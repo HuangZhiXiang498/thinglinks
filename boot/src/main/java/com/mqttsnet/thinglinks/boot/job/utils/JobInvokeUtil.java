@@ -4,7 +4,6 @@ import com.mqttsnet.thinglinks.boot.domain.SysJob;
 import com.mqttsnet.thinglinks.common.core.utils.SpringUtils;
 import com.mqttsnet.thinglinks.common.core.utils.StringUtils;
 
-
 import java.lang.reflect.InvocationTargetException;
 import java.lang.reflect.Method;
 import java.util.LinkedList;

@@ -4,7 +4,6 @@ import com.fasterxml.jackson.annotation.JsonInclude;
 import com.mqttsnet.thinglinks.boot.domain.SysDept;
 import com.mqttsnet.thinglinks.boot.system.domain.SysMenu;
 
-
 import java.io.Serializable;
 import java.util.List;
 import java.util.stream.Collectors;

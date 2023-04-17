@@ -2,7 +2,6 @@ package com.mqttsnet.thinglinks.boot.job.task.rule;
 
 import com.mqttsnet.thinglinks.boot.remote.RemoteRuleService;
 import com.mqttsnet.thinglinks.common.core.utils.StringUtils;
-
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.stereotype.Component;
 

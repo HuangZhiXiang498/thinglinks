@@ -12,14 +12,10 @@ import com.mqttsnet.thinglinks.boot.domain.SelectDto;
 import com.mqttsnet.thinglinks.boot.domain.SuperTableDto;
 import com.mqttsnet.thinglinks.boot.domain.TableDto;
 import com.mqttsnet.thinglinks.boot.domain.TagsSelectDao;
-import com.mqttsnet.thinglinks.boot.link.controller.product.ProductPropertiesController;
 import com.mqttsnet.thinglinks.boot.tdengine.controller.TdEngineController;
 import com.mqttsnet.thinglinks.common.core.domain.R;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Component;
-import org.springframework.validation.annotation.Validated;
-import org.springframework.web.bind.annotation.PostMapping;
-import org.springframework.web.bind.annotation.RequestBody;
 
 import java.util.Map;
 

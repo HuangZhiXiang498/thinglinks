@@ -5,7 +5,6 @@ import com.mqttsnet.thinglinks.boot.domain.device.entity.DeviceTopic;
 import com.mqttsnet.thinglinks.boot.domain.model.LoginUser;
 import com.mqttsnet.thinglinks.boot.link.mapper.device.DeviceTopicMapper;
 import com.mqttsnet.thinglinks.boot.link.service.device.DeviceTopicService;
-
 import com.mqttsnet.thinglinks.boot.security.service.TokenService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;

@@ -6,7 +6,6 @@ import com.mqttsnet.thinglinks.boot.gen.domain.GenTableColumn;
 import com.mqttsnet.thinglinks.common.core.constant.GenConstants;
 import com.mqttsnet.thinglinks.common.core.utils.DateUtils;
 import com.mqttsnet.thinglinks.common.core.utils.StringUtils;
-
 import org.apache.velocity.VelocityContext;
 
 import java.util.ArrayList;

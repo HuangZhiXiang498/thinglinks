@@ -1,17 +1,13 @@
 package com.mqttsnet.thinglinks.boot.remote;
 
-import com.mqttsnet.thinglinks.boot.domain.device.entity.Device;
 import com.mqttsnet.thinglinks.boot.link.controller.device.DeviceController;
-import com.mqttsnet.thinglinks.common.core.constant.ServiceNameConstants;
 import com.mqttsnet.thinglinks.common.core.domain.R;
-
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.cloud.openfeign.FeignClient;
 import org.springframework.stereotype.Component;
-import org.springframework.web.bind.annotation.*;
+import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.PostMapping;
 
 import java.util.List;
-import java.util.Map;
 
 /**
  * 设备管理服务

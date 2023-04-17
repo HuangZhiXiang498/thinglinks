@@ -1,6 +1,7 @@
 package com.mqttsnet.thinglinks.boot.system.controller;
 
 import com.mqttsnet.thinglinks.boot.domain.model.LoginUser;
+import com.mqttsnet.thinglinks.boot.log.annotation.Log;
 import com.mqttsnet.thinglinks.boot.log.enums.BusinessType;
 import com.mqttsnet.thinglinks.boot.security.annotation.PreAuthorize;
 import com.mqttsnet.thinglinks.boot.system.domain.SysUserOnline;
@@ -10,10 +11,7 @@ import com.mqttsnet.thinglinks.common.core.utils.StringUtils;
 import com.mqttsnet.thinglinks.common.core.web.controller.BaseController;
 import com.mqttsnet.thinglinks.common.core.web.domain.AjaxResult;
 import com.mqttsnet.thinglinks.common.core.web.page.TableDataInfo;
-import com.mqttsnet.thinglinks.boot.log.annotation.Log;
-
 import com.mqttsnet.thinglinks.common.redis.service.RedisService;
-
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
 

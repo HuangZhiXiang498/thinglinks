@@ -13,6 +13,7 @@ import com.mqttsnet.thinglinks.boot.domain.product.entity.Product;
 import com.mqttsnet.thinglinks.boot.domain.product.entity.ProductProperties;
 import com.mqttsnet.thinglinks.boot.domain.product.entity.ProductServices;
 import com.mqttsnet.thinglinks.boot.domain.product.model.ProductModel;
+import com.mqttsnet.thinglinks.boot.domain.product.model.Properties;
 import com.mqttsnet.thinglinks.boot.domain.product.model.Services;
 import com.mqttsnet.thinglinks.boot.link.mapper.product.ProductMapper;
 import com.mqttsnet.thinglinks.boot.link.service.product.ProductPropertiesService;
@@ -32,8 +33,6 @@ import com.mqttsnet.thinglinks.common.core.web.domain.AjaxResult;
 import com.mqttsnet.thinglinks.common.redis.service.RedisService;
 import com.mqttsnet.thinglinks.common.rocketmq.constant.ConsumerTopicConstant;
 import com.mqttsnet.thinglinks.common.rocketmq.domain.MQMessage;
-
-
 import lombok.extern.slf4j.Slf4j;
 import org.apache.rocketmq.spring.core.RocketMQTemplate;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -45,7 +44,6 @@ import org.springframework.transaction.annotation.Isolation;
 import org.springframework.transaction.annotation.Propagation;
 import org.springframework.transaction.annotation.Transactional;
 import org.springframework.web.multipart.MultipartFile;
-import com.mqttsnet.thinglinks.boot.domain.product.model.Properties;
 
 import javax.annotation.Resource;
 import java.io.BufferedReader;

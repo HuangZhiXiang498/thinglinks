@@ -6,7 +6,6 @@ import com.mqttsnet.thinglinks.common.core.utils.SpringUtils;
 import com.mqttsnet.thinglinks.common.core.utils.StringUtils;
 import com.mqttsnet.thinglinks.common.redis.service.RedisService;
 
-
 import java.util.Collection;
 import java.util.List;
 

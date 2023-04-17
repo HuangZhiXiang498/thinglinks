@@ -5,8 +5,6 @@ import com.mqttsnet.thinglinks.boot.link.service.device.DeviceService;
 import com.mqttsnet.thinglinks.boot.security.annotation.PreAuthorize;
 import com.mqttsnet.thinglinks.common.core.web.controller.BaseController;
 import com.mqttsnet.thinglinks.common.core.web.domain.AjaxResult;
-
-import com.mqttsnet.thinglinks.boot.log.annotation.Log;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestBody;

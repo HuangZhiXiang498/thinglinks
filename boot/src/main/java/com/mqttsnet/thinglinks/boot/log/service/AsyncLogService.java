@@ -3,8 +3,6 @@ package com.mqttsnet.thinglinks.boot.log.service;
 import com.mqttsnet.thinglinks.boot.domain.SysOperLog;
 import com.mqttsnet.thinglinks.boot.remote.RemoteLogService;
 import com.mqttsnet.thinglinks.common.core.constant.SecurityConstants;
-
-
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.scheduling.annotation.Async;
 import org.springframework.stereotype.Service;

@@ -7,7 +7,6 @@ import com.mqttsnet.thinglinks.boot.link.mapper.device.DeviceLocationMapper;
 import com.mqttsnet.thinglinks.boot.link.service.device.DeviceLocationService;
 import com.mqttsnet.thinglinks.boot.security.service.TokenService;
 import com.mqttsnet.thinglinks.common.core.utils.SecurityUtils;
-
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 

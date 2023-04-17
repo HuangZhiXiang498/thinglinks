@@ -7,7 +7,6 @@ import com.mqttsnet.thinglinks.boot.tdengine.mapper.TdEngineMapper;
 import com.mqttsnet.thinglinks.boot.tdengine.service.TdEngineService;
 import com.mqttsnet.thinglinks.common.core.enums.DataTypeEnum;
 import com.mqttsnet.thinglinks.common.redis.service.RedisService;
-
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
