@@ -20,6 +20,16 @@
             <groupId>com.mqttsnet</groupId>
             <artifactId>thinglinks-common-rocketmq</artifactId>
             <version>${thinglinks.version}</version>
+            <exclusions>
+                <exclusion>
+                    <artifactId>spring-cloud-starter-openfeign</artifactId>
+                    <groupId>org.springframework.cloud</groupId>
+                </exclusion>
+                <exclusion>
+                    <artifactId>feign-slf4j</artifactId>
+                    <groupId>io.github.openfeign</groupId>
+                </exclusion>
+            </exclusions>
         </dependency>
 
         <dependency>
@@ -77,6 +87,10 @@
             <groupId>com.mqttsnet</groupId>
             <artifactId>thinglinks-common-redis</artifactId>
             <version>${thinglinks.version}</version>
+        </dependency>
+        <dependency>
+            <groupId>org.aspectj</groupId>
+            <artifactId>aspectjweaver</artifactId>
         </dependency>
     </dependencies>
 
